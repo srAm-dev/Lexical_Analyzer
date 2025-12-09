@@ -1,0 +1,17 @@
+READ read
+ID x
+SEMI ;
+ID y
+ASSIGN :=
+LPAREN (
+ID x
+PLUS +
+NUM 10
+RPAREN )
+TIMES *
+NUM 2
+OVER /
+NUM 5
+SEMI ;
+WRITE write
+ID y

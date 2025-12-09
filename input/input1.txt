@@ -1,0 +1,12 @@
+//用于计算斐波那契数列的前1000个数字
+array fib[1000];
+fib[0] := 0;
+fib[1] := 1;
+write fib[0];
+write fib[1];
+i := 2;
+repeat
+    fib[i] := fib[i-1] + fib[i-2];
+    write fib[i];
+    i := i + 1
+until i = 1000

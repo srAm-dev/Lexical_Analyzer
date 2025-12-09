@@ -1,0 +1,8 @@
+// 简单的数组测试示例
+array arr[10];
+i := 0;
+repeat
+    arr[i] := i * i;
+    i := i + 1
+until i = 10;
+write arr[5]

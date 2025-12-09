@@ -1,0 +1,11 @@
+/* 一个简单的用于
+   计算阶乘的程序*/
+read x;
+if x > 0 then
+    fact := 1;
+    repeat
+        fact := fact * x;
+        x := x - 1
+    until x = 0;
+    write fact
+end

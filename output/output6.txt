@@ -1,0 +1,7 @@
+READ read
+ID x
+ID x
+RELOP =
+ID x
+PLUS +
+NUM 2

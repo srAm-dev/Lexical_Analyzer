@@ -1,0 +1,3 @@
+read x;
+y := x + @;
+write y

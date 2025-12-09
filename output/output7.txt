@@ -1,0 +1,11 @@
+READ read
+ID x
+SEMI ;
+ID y
+ASSIGN :=
+ID x
+PLUS +
+ERROR @
+SEMI ;
+WRITE write
+ID y

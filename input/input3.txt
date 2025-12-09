@@ -1,0 +1,9 @@
+/* 比较较小值 */
+read a;
+read b;
+if a < b then
+    min := a
+else
+    min := b
+end;
+write min
